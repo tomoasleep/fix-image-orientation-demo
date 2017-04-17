@@ -1024,6 +1024,14 @@ evp_bytestokey@^1.0.0:
   dependencies:
     create-hash "^1.1.1"
 
+exif-js@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/exif-js/-/exif-js-2.2.1.tgz#68589104759cafff97c396fafae4b428e87d2159"
+
+exif-parser@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/exif-parser/-/exif-parser-0.1.9.tgz#1d087e05fd2b079e3a8eaf8ff249978cb5f6fba7"
+
 expand-brackets@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-0.1.5.tgz#df07284e342a807cd733ac5af72411e581d1177b"
@@ -1262,6 +1270,12 @@ https-browserify@0.0.1:
 ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
+
+image-file@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/image-file/-/image-file-1.1.0.tgz#ae5628d0604a5af187d6e6938f7ecd26869ff907"
+  dependencies:
+    exif-parser "^0.1.9"
 
 indexof@0.0.1:
   version "0.0.1"

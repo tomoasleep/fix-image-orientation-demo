@@ -9,7 +9,14 @@
     -->
     <script src="./bundle.js"></script>
     <form action="hoge">
-      <input type="file" name="image">
+      <fieldset>
+        <legend>バイナリ操作による変換</legend>
+        <input type="file" id="binary" name="image-binary">
+      </fieldset>
+      <fieldset>
+        <legend>canvasによる変換</legend>
+        <input type="file" id="canvas" name="image-canvas">
+      </fieldset>
     </form>
   </body>
 </html>
